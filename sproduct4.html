@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="fontawesome-free-6.7.2-web/fontawesome-free-6.7.2-web/css/all.min.css">
+        <title>clothes business</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <section id="header">
+            <a href="#">ASC</a>
+
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <a href="#" id="close"><i class="fa-solid fa-circle-xmark"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i id="bar" class="fa-solid fa-bars"></i>
+            </div>
+            
+        </section>
+        
+        <section id="page-header">
+            
+            <h2>#stayhome</h2>
+            
+            <p>Save more money & up to 70% off!</p>
+            
+        </section>
+
+        <section id="prodetails" class="section-p1">
+
+            <div class="single-pro-image">
+                <img src="images/haryo-setyadi-acn5ERAeSb4-unsplash.jpg" width="100%" id="MainImg" alt="">
+
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="images/haryo-setyadi-acn5ERAeSb4-unsplash.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/tuananh-blue-3heVBZoJXGU-unsplash.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/lasse-jensen-B1Le_4XqOS8-unsplash.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/md-salman-tWOz2_EK5EQ-unsplash.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="single-pro-details">
+            <h6>Home / T-shirt</h6>
+            <h4>Men's Fashion T Shirt</h4>
+            <h3>$9</h3>
+            <select>
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>Small</option>
+                <option>Large</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add to cart</button>
+            <h4>Product Details</h4>
+            <span>
+                Quality Vintage made with 100% cutton,it provides ultimate comfort and make
+                you feel comfortable.available in all colors. 
+            </span>
+            </div>
+
+
+
+           
+
+        </section>
+        
+        
+        
+
+        <footer>
+            <div class="footer-col">
+                <h3>Male Wears</h3>
+                <li>face caps</li>
+                <li>vintage</li>
+                <li>shoes</li>
+                <li>polo</li>
+            </div>
+            <div class="footer-col">
+                <h3>Jewelries</h3>
+                <li>watches</li>
+                <li>bangos</li>
+                <li>necklaces</li>
+                <li>chains</li>
+            </div>
+            <div class="footer-col">
+                <h3>Feminine</h3>
+                <li>unisex</li>
+                <li>heels</li>
+                <li>anklets</li>
+                <li>slippers</li>
+            </div>
+            <div class="footer-col">
+                <h3>Quality</h3>
+                <li>addidas</li>
+                <li>nike</li>
+                <li>dior</li>
+                <li>fendi</li>
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us.We only send promo offers,</p>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; 2021 All right reserved | This template is made by vinchi</p>
+                <div class="pro-links">
+                <i class="fa-brands fa-facebook" ></i>
+                <i class="fa-brands fa-instagram" ></i>
+
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            var MainImg = document.getElementById("MainImg");
+            var smallimg = document.getElementsByClassName("small-img");
+
+            smallimg[0].onclick = function(){
+                MainImg.src = smallimg[0].src;
+            }
+            smallimg[1].onclick = function(){
+                MainImg.src = smallimg[1].src;
+            }
+            smallimg[2].onclick = function(){
+                MainImg.src = smallimg[2].src;
+            }
+            smallimg[3].onclick = function(){
+                MainImg.src = smallimg[3].src;
+            }
+        </script>
+
+        <script src="script.js"></script>
+    </body>
+</html>        
